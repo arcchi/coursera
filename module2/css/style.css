@@ -26,15 +26,15 @@ section {
     right: 0;
 }
 
-.card-1 .section-title {
+#card-1 .section-title {
     background-color: #b996e0;
 }
 
-.card-2 .section-title {
+#card-2 .section-title {
     background-color: #eda8eb;
 }
 
-.card-3 .section-title {
+#card-3 .section-title {
     background-color: #ed8c8c;
 }
 
