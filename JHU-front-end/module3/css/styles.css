@@ -1,0 +1,160 @@
+body {
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #61122f;
+    font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+    background-color: #f6b319;
+}
+
+.navbar-brand {
+    padding-top: 25px;
+}
+.navbar-brand h1 {
+    font-family: 'Lora', serif;
+    color: #557c3e;
+    font-size: 5vw;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+.navbar-brand a:hover, 
+.navbar-brand a:focus {
+    text-decoration: none;
+}
+.navbar-brand p { /* Kosher cert */
+    color: #000;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: .6em;
+    margin-top: 12px
+}
+.navbar-brand p span { /* Star-K */
+    vertical-align: middle;
+}
+.navbar-brand p img {
+    height: 20px;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+#nav-list a {
+    color: #951C49;
+    font-size: 1.4em;
+}
+#nav-list li {
+    padding-top: 10px;
+    padding: 0 10px 0 10px;
+}
+#nav-list li:hover {
+    background-color: #E7E7E7;
+}
+
+#phone a { /* Phone Number */
+    text-align: right;
+    padding-bottom: 0;
+}
+#phone div { /* We Deliver */
+    color: #557C3E;
+    text-align: right;
+}
+
+.navbar-toggler {
+    position: absolute;
+    top: 30px;
+    right: 5%;
+}
+.navbar-header button.navbar-toggler {
+    border-color: #61122F;
+}
+.navbar-header .fa-bars {
+    color: #61122F;
+}
+
+#collapsable-nav {
+    margin-bottom: 5px;
+}
+
+/* Call Button */
+#call-btn {
+    text-align: center;
+    margin: 10px 0 10px 0;
+}
+#call-btn .btn-primary {
+    color: #61122F;
+    background-color: #f6b319;
+    border: 1px solid #E7E7E7;
+    width: 95%;
+}
+#call-btn a {
+    font-size: 5vw;
+}
+#xs-deliver {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    /*Header*/
+    .navbar-brand h1 {
+        font-size: 5vw;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    /* Header */
+    #logo-img {
+        background: url('../images/restaurant-logo_medium.png') no-repeat;
+        width: 100px;
+        height: 100px;
+        margin: 5px 5px 5px 0;
+    }
+    .navbar-brand h1 {
+        font-size: 1.5em;
+    }
+    .navbar-brand p { /* Kosher cert */
+        font-size: .8em;
+        margin-top: 15px
+    }
+    .navbar-brand p img {
+        height: 25px;
+    }
+
+    .navbar-toggler {
+        right: 10%;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    /* Header */
+    
+    #nav-list a {
+        font-size: 1.2em;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    /* Header */
+    #logo-img {
+        background: url('../images/restaurant-logo_large.png') no-repeat;
+        width: 150px;
+        height: 150px;
+        margin: 10px 15px 10px 0;
+    }
+
+    #nav-list a {
+        font-size: 1.4em;
+    }
+
+}
