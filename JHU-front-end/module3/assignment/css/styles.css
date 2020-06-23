@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Regular.ttf');
+}
+
+body {
+    background-color: #b9e9eb;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav {
+    background-color: #8a8a8a;
+}
+.navbar-brand h1 {
+    font-weight: bold;
+}
+.nav-item {
+    text-align: center;
+    background-color: #666;
+    margin-bottom: 5px;
+}
+
+header {
+    margin-top: 30px;
+}
+header h2 {
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.row {
+    padding: 5px 15px 10px 15px;
+}
+.food-item {
+    background-color: #c94269;
+    min-height: 50em;
+    width: 100%;
+}
+.food-item h3 {
+    margin-top: 10px;
+    font-size: 30px;
+}
