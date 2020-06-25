@@ -10,7 +10,7 @@
 <body>
 
   <nav class="navbar nav navbar-expand-sm navbar-dark">
-    <a class="navbar-brand" href="index.html"><h1>Food, LLC</h1></a>
+    <a class="navbar-brand" href="index.html" id="top"><h1>Food, LLC</h1></a>
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#food-navbar" aria-controls="food-navbar" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -18,9 +18,9 @@
 
     <div class="collapse navbar-collapse" id="food-navbar">
       <div class="navbar-nav d-block d-sm-none">
-        <a class="nav-item nav-link" href="#">Chicken</a>
-        <a class="nav-item nav-link" href="#">Beef</a>
-        <a class="nav-item nav-link" href="#">Shushi</a>
+        <a class="nav-item nav-link" href="#chicken">Chicken</a>
+        <a class="nav-item nav-link" href="#beef">Beef</a>
+        <a class="nav-item nav-link" href="#sushi">Shushi</a>
       </ul>
     </div>
   </nav>
@@ -31,8 +31,36 @@
 
   <div class="container">
     <div class="row">
-      <div class="food-item col-12">
-        <h3 class="text-center">Chicken</h3>
+      <div class="col-12 col-sm-6 col-md-4 costum-padding">
+        <div class="food-item" id="chicken">
+          <h3 class="text-center">Chicken</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a varius arcu. Donec quis velit suscipit, tincidunt nulla ac, tempus nisi. Proin vitae pharetra dui, id iaculis erat. Nullam in diam neque. Sed pretium elementum commodo. Nunc at metus ex. Suspendisse magna justo, tincidunt consectetur laoreet quis, sodales eu turpis. Phasellus non cursus ex. Proin luctus ex nulla, pellentesque lobortis velit auctor in.
+          </p><p>
+            Donec vel erat quis ex consectetur vehicula. Sed bibendum ligula vel tempor consectetur. Donec mattis lacus urna, ut ultrices nisl tincidunt sit amet. Praesent id lorem cursus, blandit diam in, scelerisque lectus. Quisque sodales aliquam lacus et lacinia. Aenean lacus massa, maximus nec felis nec, rutrum eleifend orci. Sed at accumsan purus, vitae aliquam sapien. Nam sagittis lorem ligula, vel tempus nulla mattis ut.
+          </p>
+          <a href="#top"><span>Back to Top</span></a>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 costum-padding">
+        <div class="food-item" id="beef">
+          <h3 class="text-center">Beef</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a varius arcu. Donec quis velit suscipit, tincidunt nulla ac, tempus nisi. Proin vitae pharetra dui, id iaculis erat. Nullam in diam neque. Sed pretium elementum commodo. Nunc at metus ex. Suspendisse magna justo, tincidunt consectetur laoreet quis, sodales eu turpis. Phasellus non cursus ex. Proin luctus ex nulla, pellentesque lobortis velit auctor in.
+          </p><p>
+            Vestibulum sed molestie quam. Aliquam fermentum metus velit, fermentum tempor justo lacinia quis. Sed at cursus diam, nec blandit ipsum. Nunc mollis rhoncus porta. Duis nec congue ex, quis auctor magna. Nam consequat molestie risus ut maximus. Morbi tristique blandit lacus, et accumsan ligula molestie sit amet. Praesent quis aliquam nisl, vitae convallis metus. Suspendisse potenti. Fusce gravida porta lorem sit amet lobortis. Mauris tincidunt magna in tellus placerat, id vehicula magna fringilla. Nulla tristique ultricies ante, a hendrerit arcu iaculis in. Sed id tristique nulla. Fusce vitae magna id tortor blandit tristique. Fusce suscipit malesuada dapibus. Sed in auctor metus, sed interdum sem.
+          </p>
+          <a href="#top"><span>Back to Top</span></a>
+        </div>
+      </div>
+      <div class="col-12 col-md-4 costum-padding">
+        <div class="food-item" id="sushi">
+          <h3 class="text-center">Sushi</h3>
+          <p>
+            Donec vel erat quis ex consectetur vehicula. Sed bibendum ligula vel tempor consectetur. Donec mattis lacus urna, ut ultrices nisl tincidunt sit amet. Praesent id lorem cursus, blandit diam in, scelerisque lectus. Quisque sodales aliquam lacus et lacinia. Aenean lacus massa, maximus nec felis nec, rutrum eleifend orci. Sed at accumsan purus, vitae aliquam sapien. Nam sagittis lorem ligula, vel tempus nulla mattis ut.
+          </p>
+          <a class="text-center" href="#top">Back to Top</a>
+        </div>
       </div>
     </div>
   </div>
